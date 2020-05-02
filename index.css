@@ -1,0 +1,92 @@
+.hero.hero-about {
+  padding: 5rem 0;
+}
+
+.hero.hero-about .title {
+  margin-bottom: 1rem;
+}
+
+.hero.hero-about .subtitle {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.hero.hero-feature {
+  position: relative;
+}
+
+.hero.hero-feature .feature-banner {
+  text-align: center;
+}
+
+.hero.hero-feature .feature-banner .feature-image {
+  margin: 0 auto 3rem auto;
+  width: 90%;
+}
+
+.hero.hero-feature .feature-banner .feature-image .building {
+  position: relative;
+  background-image: url(images/city.svg);
+  background-size: cover;
+  padding-top: 60%;
+}
+
+.hero.hero-feature .feature-banner .feature-image .building .cloud {
+  position: absolute;
+}
+
+@media (min-width: 992px) {
+  .hero.hero-feature .feature-banner .feature-image {
+    width: 50%;
+  }
+}
+
+.hero.hero-feature .bg-gradient {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  padding-top: 60%;
+  background-size: cover;
+  background-position: top center;
+  background-image: url(images/gradient-sm.svg);
+}
+
+@media (min-width: 992px) {
+  .hero.hero-feature .bg-gradient {
+    background-image: url(images/gradient-xl.svg);
+  }
+}
+
+.hero.hero-feature .container {
+  position: relative;
+}
+
+.hero.hero-feature .container .dot-1 {
+  position: absolute;
+  content: "";
+  background-image: url(images/dots-1.svg);
+  width: 138px;
+  height: 142px;
+  left: 0px;
+  top: 0px;
+}
+
+.hero.hero-feature .container .dot-2 {
+  position: absolute;
+  content: "";
+  background-image: url(images/dots-2.svg);
+  width: 155px;
+  height: 333px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.hero.hero-team {
+  padding: 3rem 0;
+}
+
+.container .inner-container {
+  width: 80%;
+}
+/*# sourceMappingURL=index.css.map */
